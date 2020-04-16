@@ -1,0 +1,9 @@
+
+
+tasks:
+  - init: npm i
+    command: npm install -g torrent-web
+
+ports:
+  - port: 8080
+    onOpen: open-preview
